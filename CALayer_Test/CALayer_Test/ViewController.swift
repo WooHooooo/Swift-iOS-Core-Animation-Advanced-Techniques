@@ -10,11 +10,30 @@ import UIKit
 
 let headerTitles = ["1.图层树","2.寄宿图","3.图层几何学","4.视觉效果","5.变换"]
 
-let rowTitles = [["1.3.使用图层"],
-                 ["2.1.contents属性-图片适应","2.1.contents属性-图片切割","2.1.contents属性-图片拉伸","2.2.Custom Drawing-子图层重绘"],
-                 [],[],[]]
+let rowTitles = [
+                    ["1.3.使用图层"],
+                    ["2.1.contents属性-图片适应","2.1.contents属性-图片切割","2.1.contents属性-图片拉伸","2.2.Custom Drawing-子图层重绘"],
+                    ["3.2.锚点","3.3.坐标系","3.4.Hit Testing-containsPoint","3.4.Hit Testing-hitTest"],
+                    ["4.1.圆角","4.2.图层边框","4.3.阴影-剪裁","4.3.阴影-shadowPath","4.4.图层蒙版","4.5.拉伸过滤","4.6.组透明"],
+                    []
+                ]
 
-let detailView:[[UIViewController]] = [[UseLayer()],[ContentsProperties1(),ContentsProperties2(),ContentsProperties3(),CustomDrawing()],[],[],[]]
+let detailView:[[UIViewController]] = [
+    [
+        UseLayer()
+    ],
+    [
+        ContentsProperties1(),ContentsProperties2(),ContentsProperties3(),CustomDrawing()],
+    [
+        AnchorPoint(),CoordinateSystem(),HitTesting_containsPoint(),HitTesting_hitTest()
+    ],
+    [
+        ConrnerRadius(),LayerBorder(),Shadow(),ShadowPath(),LayerMask(),Stretch_Filte(),Rasterize()
+    ],
+    [
+        
+    ]
+]
 
 class ViewController: UIViewController {
 

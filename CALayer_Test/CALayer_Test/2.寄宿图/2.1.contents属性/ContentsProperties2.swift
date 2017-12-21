@@ -12,28 +12,28 @@ class ContentsProperties2: UIViewController {
     
     fileprivate lazy var coneView:UIView = {
         [weak self] in
-        var aView = UIView(frame:CGRect(x:(self?.view.bounds.width)!/8,y:(self?.view.bounds.height)!/5,width:(self?.view.bounds.width)!*2.5/8,height:(self?.view.bounds.height)!*1.3/5))
+        let aView = UIView(frame:CGRect(x:(self?.view.bounds.width)!/8,y:(self?.view.bounds.height)!/5,width:(self?.view.bounds.width)!*2.5/8,height:(self?.view.bounds.height)!*1.3/5))
         aView.backgroundColor = UIColor.white
         return aView
         }()
     
     fileprivate lazy var shipView:UIView = {
         [weak self] in
-        var aView = UIView(frame:CGRect(x:(self?.view.bounds.width)!*4.5/8,y:(self?.view.bounds.height)!/5,width:(self?.view.bounds.width)!*2.5/8,height:(self?.view.bounds.height)!*1.3/5))
+        let aView = UIView(frame:CGRect(x:(self?.view.bounds.width)!*4.5/8,y:(self?.view.bounds.height)!/5,width:(self?.view.bounds.width)!*2.5/8,height:(self?.view.bounds.height)!*1.3/5))
         aView.backgroundColor = UIColor.white
         return aView
         }()
     
     fileprivate lazy var iglooView:UIView = {
         [weak self] in
-        var aView = UIView(frame:CGRect(x:(self?.view.bounds.width)!/8,y:(self?.view.bounds.height)!*2.7/5,width:(self?.view.bounds.width)!*2.5/8,height:(self?.view.bounds.height)!*1.3/5))
+        let aView = UIView(frame:CGRect(x:(self?.view.bounds.width)!/8,y:(self?.view.bounds.height)!*2.7/5,width:(self?.view.bounds.width)!*2.5/8,height:(self?.view.bounds.height)!*1.3/5))
         aView.backgroundColor = UIColor.white
         return aView
         }()
     
     fileprivate lazy var anchorView:UIView = {
         [weak self] in
-        var aView = UIView(frame:CGRect(x:(self?.view.bounds.width)!*4.5/8,y:(self?.view.bounds.height)!*2.7/5,width:(self?.view.bounds.width)!*2.5/8,height:(self?.view.bounds.height)!*1.3/5))
+        let aView = UIView(frame:CGRect(x:(self?.view.bounds.width)!*4.5/8,y:(self?.view.bounds.height)!*2.7/5,width:(self?.view.bounds.width)!*2.5/8,height:(self?.view.bounds.height)!*1.3/5))
         aView.backgroundColor = UIColor.white
         return aView
         }()
@@ -55,8 +55,5 @@ class ContentsProperties2: UIViewController {
         [coneView,shipView,iglooView,anchorView].forEach(self.view.addSubview)
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
     
 }

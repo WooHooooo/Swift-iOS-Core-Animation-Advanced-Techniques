@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		682513C11FEB542E00FE41CE /* ShadowPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682513BF1FEB542E00FE41CE /* ShadowPath.swift */; };
+		682513C21FEB542E00FE41CE /* ShadowPath.xib in Resources */ = {isa = PBXBuildFile; fileRef = 682513C01FEB542E00FE41CE /* ShadowPath.xib */; };
 		68369BCD1FE8A0E300FA8096 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68369BCC1FE8A0E300FA8096 /* AppDelegate.swift */; };
 		68369BCF1FE8A0E300FA8096 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68369BCE1FE8A0E300FA8096 /* ViewController.swift */; };
 		68369BD21FE8A0E300FA8096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68369BD01FE8A0E300FA8096 /* Main.storyboard */; };
@@ -14,11 +16,28 @@
 		68369BE21FE8A0E400FA8096 /* CALayer_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68369BE11FE8A0E400FA8096 /* CALayer_TestTests.swift */; };
 		68369C081FE8B93200FA8096 /* UseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68369C071FE8B93200FA8096 /* UseLayer.swift */; };
 		689C25EE1FE8E13A005A3311 /* ContentsProperties1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C25ED1FE8E13A005A3311 /* ContentsProperties1.swift */; };
-		689C25F01FE8EA38005A3311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689C25EF1FE8EA38005A3311 /* Assets.xcassets */; };
 		689C25F41FE966B4005A3311 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C25F31FE966B4005A3311 /* UIViewController+Extension.swift */; };
 		689C25F71FE96FF8005A3311 /* CustomDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C25F61FE96FF8005A3311 /* CustomDrawing.swift */; };
 		689C25F91FE9F7A0005A3311 /* ContentsProperties2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C25F81FE9F7A0005A3311 /* ContentsProperties2.swift */; };
 		689C25FB1FEA02EE005A3311 /* ContentsProperties3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C25FA1FEA02EE005A3311 /* ContentsProperties3.swift */; };
+		689C25FD1FEA371A005A3311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689C25FC1FEA3719005A3311 /* Assets.xcassets */; };
+		689C26001FEA3C6B005A3311 /* AnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C25FF1FEA3C6B005A3311 /* AnchorPoint.swift */; };
+		689C26061FEA5F40005A3311 /* CoordinateSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C26051FEA5F40005A3311 /* CoordinateSystem.swift */; };
+		689C260B1FEA6474005A3311 /* HitTesting-containsPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C260A1FEA6474005A3311 /* HitTesting-containsPoint.swift */; };
+		689C260D1FEA649E005A3311 /* HitTesting-hitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C260C1FEA649E005A3311 /* HitTesting-hitTest.swift */; };
+		689C26101FEA71ED005A3311 /* ConrnerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C260F1FEA71ED005A3311 /* ConrnerRadius.swift */; };
+		689C26151FEB4571005A3311 /* LayerBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C26141FEB4571005A3311 /* LayerBorder.swift */; };
+		689C26171FEB4591005A3311 /* LayerBorder.xib in Resources */ = {isa = PBXBuildFile; fileRef = 689C26161FEB4591005A3311 /* LayerBorder.xib */; };
+		689C26191FEB497E005A3311 /* ConrnerRadius.xib in Resources */ = {isa = PBXBuildFile; fileRef = 689C26181FEB497E005A3311 /* ConrnerRadius.xib */; };
+		689C261B1FEB4A4D005A3311 /* CoordinateSystem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 689C261A1FEB4A4D005A3311 /* CoordinateSystem.xib */; };
+		689C261D1FEB4ABE005A3311 /* AnchorPoint.xib in Resources */ = {isa = PBXBuildFile; fileRef = 689C261C1FEB4ABE005A3311 /* AnchorPoint.xib */; };
+		689C26211FEB50B3005A3311 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C261F1FEB50B3005A3311 /* Shadow.swift */; };
+		689C26221FEB50B3005A3311 /* Shadow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 689C26201FEB50B3005A3311 /* Shadow.xib */; };
+		68B259211FEB5FCF00C476B1 /* LayerMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B2591F1FEB5FCF00C476B1 /* LayerMask.swift */; };
+		68B259221FEB5FCF00C476B1 /* LayerMask.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68B259201FEB5FCF00C476B1 /* LayerMask.xib */; };
+		68B259251FEB64B800C476B1 /* Stretch_Filte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B259231FEB64B800C476B1 /* Stretch_Filte.swift */; };
+		68B2592D1FEB911600C476B1 /* Stretch_Filte.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68B2592C1FEB911600C476B1 /* Stretch_Filte.xib */; };
+		68B259311FEB949800C476B1 /* Rasterize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B2592F1FEB949800C476B1 /* Rasterize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		682513BF1FEB542E00FE41CE /* ShadowPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowPath.swift; sourceTree = "<group>"; };
+		682513C01FEB542E00FE41CE /* ShadowPath.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShadowPath.xib; sourceTree = "<group>"; };
 		68369BC91FE8A0E300FA8096 /* CALayer_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CALayer_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68369BCC1FE8A0E300FA8096 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68369BCE1FE8A0E300FA8096 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,11 +64,28 @@
 		68369BE31FE8A0E400FA8096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68369C071FE8B93200FA8096 /* UseLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseLayer.swift; sourceTree = "<group>"; };
 		689C25ED1FE8E13A005A3311 /* ContentsProperties1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsProperties1.swift; sourceTree = "<group>"; };
-		689C25EF1FE8EA38005A3311 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Desktop/Assets.xcassets; sourceTree = "<group>"; };
 		689C25F31FE966B4005A3311 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		689C25F61FE96FF8005A3311 /* CustomDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDrawing.swift; sourceTree = "<group>"; };
 		689C25F81FE9F7A0005A3311 /* ContentsProperties2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsProperties2.swift; sourceTree = "<group>"; };
 		689C25FA1FEA02EE005A3311 /* ContentsProperties3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsProperties3.swift; sourceTree = "<group>"; };
+		689C25FC1FEA3719005A3311 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = CALayer_Test/Assets.xcassets; sourceTree = "<group>"; };
+		689C25FF1FEA3C6B005A3311 /* AnchorPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorPoint.swift; sourceTree = "<group>"; };
+		689C26051FEA5F40005A3311 /* CoordinateSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateSystem.swift; sourceTree = "<group>"; };
+		689C260A1FEA6474005A3311 /* HitTesting-containsPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HitTesting-containsPoint.swift"; sourceTree = "<group>"; };
+		689C260C1FEA649E005A3311 /* HitTesting-hitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HitTesting-hitTest.swift"; sourceTree = "<group>"; };
+		689C260F1FEA71ED005A3311 /* ConrnerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConrnerRadius.swift; sourceTree = "<group>"; };
+		689C26141FEB4571005A3311 /* LayerBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerBorder.swift; sourceTree = "<group>"; };
+		689C26161FEB4591005A3311 /* LayerBorder.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LayerBorder.xib; sourceTree = "<group>"; };
+		689C26181FEB497E005A3311 /* ConrnerRadius.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConrnerRadius.xib; sourceTree = "<group>"; };
+		689C261A1FEB4A4D005A3311 /* CoordinateSystem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoordinateSystem.xib; sourceTree = "<group>"; };
+		689C261C1FEB4ABE005A3311 /* AnchorPoint.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnchorPoint.xib; sourceTree = "<group>"; };
+		689C261F1FEB50B3005A3311 /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
+		689C26201FEB50B3005A3311 /* Shadow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Shadow.xib; sourceTree = "<group>"; };
+		68B2591F1FEB5FCF00C476B1 /* LayerMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerMask.swift; sourceTree = "<group>"; };
+		68B259201FEB5FCF00C476B1 /* LayerMask.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LayerMask.xib; sourceTree = "<group>"; };
+		68B259231FEB64B800C476B1 /* Stretch_Filte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stretch_Filte.swift; sourceTree = "<group>"; };
+		68B2592C1FEB911600C476B1 /* Stretch_Filte.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Stretch_Filte.xib; sourceTree = "<group>"; };
+		68B2592F1FEB949800C476B1 /* Rasterize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rasterize.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +109,7 @@
 		68369BC01FE8A0E300FA8096 = {
 			isa = PBXGroup;
 			children = (
+				689C25FC1FEA3719005A3311 /* Assets.xcassets */,
 				68369BCB1FE8A0E300FA8096 /* CALayer_Test */,
 				68369BE01FE8A0E400FA8096 /* CALayer_TestTests */,
 				68369BCA1FE8A0E300FA8096 /* Products */,
@@ -107,7 +146,6 @@
 				68369BCC1FE8A0E300FA8096 /* AppDelegate.swift */,
 				689C25F31FE966B4005A3311 /* UIViewController+Extension.swift */,
 				68369BCE1FE8A0E300FA8096 /* ViewController.swift */,
-				689C25EF1FE8EA38005A3311 /* Assets.xcassets */,
 				68369BD01FE8A0E300FA8096 /* Main.storyboard */,
 				68369BD51FE8A0E300FA8096 /* LaunchScreen.storyboard */,
 				68369BD81FE8A0E300FA8096 /* Info.plist */,
@@ -144,6 +182,9 @@
 		68369BF91FE8B80D00FA8096 /* 3.图层几何学 */ = {
 			isa = PBXGroup;
 			children = (
+				689C26091FEA6434005A3311 /* 3.4.Hit Testing */,
+				689C26041FEA4BD8005A3311 /* 3.3.坐标系 */,
+				689C25FE1FEA3C3D005A3311 /* 3.2.锚点 */,
 			);
 			path = "3.图层几何学";
 			sourceTree = "<group>";
@@ -151,6 +192,12 @@
 		68369BFA1FE8B82200FA8096 /* 4.视觉效果 */ = {
 			isa = PBXGroup;
 			children = (
+				68B2592E1FEB948000C476B1 /* 4.6.组透明 */,
+				68B259281FEB82EC00C476B1 /* 4.5.拉伸过滤 */,
+				68B259271FEB82E100C476B1 /* 4.4.图层蒙版 */,
+				689C261E1FEB5081005A3311 /* 4.3.阴影 */,
+				689C26131FEA74F8005A3311 /* 4.2.图层边框 */,
+				689C260E1FEA710D005A3311 /* 4.1.圆角 */,
 			);
 			path = "4.视觉效果";
 			sourceTree = "<group>";
@@ -258,6 +305,88 @@
 			path = "2.2.Custom Drawing";
 			sourceTree = "<group>";
 		};
+		689C25FE1FEA3C3D005A3311 /* 3.2.锚点 */ = {
+			isa = PBXGroup;
+			children = (
+				689C25FF1FEA3C6B005A3311 /* AnchorPoint.swift */,
+				689C261C1FEB4ABE005A3311 /* AnchorPoint.xib */,
+			);
+			path = "3.2.锚点";
+			sourceTree = "<group>";
+		};
+		689C26041FEA4BD8005A3311 /* 3.3.坐标系 */ = {
+			isa = PBXGroup;
+			children = (
+				689C26051FEA5F40005A3311 /* CoordinateSystem.swift */,
+				689C261A1FEB4A4D005A3311 /* CoordinateSystem.xib */,
+			);
+			path = "3.3.坐标系";
+			sourceTree = "<group>";
+		};
+		689C26091FEA6434005A3311 /* 3.4.Hit Testing */ = {
+			isa = PBXGroup;
+			children = (
+				689C260A1FEA6474005A3311 /* HitTesting-containsPoint.swift */,
+				689C260C1FEA649E005A3311 /* HitTesting-hitTest.swift */,
+			);
+			path = "3.4.Hit Testing";
+			sourceTree = "<group>";
+		};
+		689C260E1FEA710D005A3311 /* 4.1.圆角 */ = {
+			isa = PBXGroup;
+			children = (
+				689C260F1FEA71ED005A3311 /* ConrnerRadius.swift */,
+				689C26181FEB497E005A3311 /* ConrnerRadius.xib */,
+			);
+			path = "4.1.圆角";
+			sourceTree = "<group>";
+		};
+		689C26131FEA74F8005A3311 /* 4.2.图层边框 */ = {
+			isa = PBXGroup;
+			children = (
+				689C26141FEB4571005A3311 /* LayerBorder.swift */,
+				689C26161FEB4591005A3311 /* LayerBorder.xib */,
+			);
+			path = "4.2.图层边框";
+			sourceTree = "<group>";
+		};
+		689C261E1FEB5081005A3311 /* 4.3.阴影 */ = {
+			isa = PBXGroup;
+			children = (
+				689C261F1FEB50B3005A3311 /* Shadow.swift */,
+				689C26201FEB50B3005A3311 /* Shadow.xib */,
+				682513BF1FEB542E00FE41CE /* ShadowPath.swift */,
+				682513C01FEB542E00FE41CE /* ShadowPath.xib */,
+			);
+			path = "4.3.阴影";
+			sourceTree = "<group>";
+		};
+		68B259271FEB82E100C476B1 /* 4.4.图层蒙版 */ = {
+			isa = PBXGroup;
+			children = (
+				68B2591F1FEB5FCF00C476B1 /* LayerMask.swift */,
+				68B259201FEB5FCF00C476B1 /* LayerMask.xib */,
+			);
+			path = "4.4.图层蒙版";
+			sourceTree = "<group>";
+		};
+		68B259281FEB82EC00C476B1 /* 4.5.拉伸过滤 */ = {
+			isa = PBXGroup;
+			children = (
+				68B259231FEB64B800C476B1 /* Stretch_Filte.swift */,
+				68B2592C1FEB911600C476B1 /* Stretch_Filte.xib */,
+			);
+			path = "4.5.拉伸过滤";
+			sourceTree = "<group>";
+		};
+		68B2592E1FEB948000C476B1 /* 4.6.组透明 */ = {
+			isa = PBXGroup;
+			children = (
+				68B2592F1FEB949800C476B1 /* Rasterize.swift */,
+			);
+			path = "4.6.组透明";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -341,9 +470,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				689C26171FEB4591005A3311 /* LayerBorder.xib in Resources */,
+				689C26221FEB50B3005A3311 /* Shadow.xib in Resources */,
+				682513C21FEB542E00FE41CE /* ShadowPath.xib in Resources */,
+				689C26191FEB497E005A3311 /* ConrnerRadius.xib in Resources */,
+				689C261B1FEB4A4D005A3311 /* CoordinateSystem.xib in Resources */,
+				68B2592D1FEB911600C476B1 /* Stretch_Filte.xib in Resources */,
 				68369BD71FE8A0E300FA8096 /* LaunchScreen.storyboard in Resources */,
-				689C25F01FE8EA38005A3311 /* Assets.xcassets in Resources */,
+				689C25FD1FEA371A005A3311 /* Assets.xcassets in Resources */,
+				689C261D1FEB4ABE005A3311 /* AnchorPoint.xib in Resources */,
 				68369BD21FE8A0E300FA8096 /* Main.storyboard in Resources */,
+				68B259221FEB5FCF00C476B1 /* LayerMask.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,13 +499,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				68369BCF1FE8A0E300FA8096 /* ViewController.swift in Sources */,
+				689C26001FEA3C6B005A3311 /* AnchorPoint.swift in Sources */,
+				689C26101FEA71ED005A3311 /* ConrnerRadius.swift in Sources */,
+				689C26061FEA5F40005A3311 /* CoordinateSystem.swift in Sources */,
 				689C25F71FE96FF8005A3311 /* CustomDrawing.swift in Sources */,
 				689C25FB1FEA02EE005A3311 /* ContentsProperties3.swift in Sources */,
 				68369BCD1FE8A0E300FA8096 /* AppDelegate.swift in Sources */,
 				689C25F91FE9F7A0005A3311 /* ContentsProperties2.swift in Sources */,
+				689C260B1FEA6474005A3311 /* HitTesting-containsPoint.swift in Sources */,
+				689C260D1FEA649E005A3311 /* HitTesting-hitTest.swift in Sources */,
 				689C25EE1FE8E13A005A3311 /* ContentsProperties1.swift in Sources */,
+				689C26151FEB4571005A3311 /* LayerBorder.swift in Sources */,
+				689C26211FEB50B3005A3311 /* Shadow.swift in Sources */,
+				68B259211FEB5FCF00C476B1 /* LayerMask.swift in Sources */,
 				689C25F41FE966B4005A3311 /* UIViewController+Extension.swift in Sources */,
+				682513C11FEB542E00FE41CE /* ShadowPath.swift in Sources */,
+				68B259311FEB949800C476B1 /* Rasterize.swift in Sources */,
 				68369C081FE8B93200FA8096 /* UseLayer.swift in Sources */,
+				68B259251FEB64B800C476B1 /* Stretch_Filte.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
