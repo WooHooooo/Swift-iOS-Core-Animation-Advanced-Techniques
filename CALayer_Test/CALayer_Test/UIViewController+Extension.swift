@@ -11,12 +11,12 @@ import UIKit
 extension UIViewController {
     func addDismissButton(){
         self.view.layer.backgroundColor = UIColor.gray.cgColor
-        let dismissButton = UIButton(frame: CGRect(x:self.view.bounds.width/5,y:self.view.bounds.height*11/13,width:self.view.bounds.width*3/5,height:self.view.bounds.height/13))
+        let dismissButton = UIButton(frame: CGRect(x:view.bounds.width/5,y:view.bounds.height*11/13,width:view.bounds.width*3/5,height:view.bounds.height/13))
         dismissButton.layer.backgroundColor = UIColor.darkGray.cgColor
         dismissButton.tintColor = UIColor.white
         dismissButton.setTitle("返回列表", for: .normal)
         dismissButton.addTarget(self, action: #selector(dismissView(_:)), for: .touchUpInside)
-        self.view.addSubview(dismissButton)
+        view.addSubview(dismissButton)
     }
     
     @objc func dismissView(_ button:UIButton){

@@ -1,14 +1,15 @@
 //
-//  ContentsProperties.swift
+//  AffineTransformConcat.swift
 //  CALayer_Test
 //
-//  Created by 吴昊 on 2017/12/19.
+//  Created by 吴昊 on 2017/12/21.
 //  Copyright © 2017年 吴昊. All rights reserved.
 //
 
 import Foundation
 import UIKit
-class ContentsProperties1: UIViewController {
+
+class AffineTransformConcat: UIViewController {
     
     lazy var simpleView:UIView = {
         [weak self] in
@@ -16,16 +17,17 @@ class ContentsProperties1: UIViewController {
         aView.backgroundColor = UIColor.white
         let image = UIImage(named: "Snowman.png")
         aView.layer.contents = image?.cgImage
-        aView.layer.contentsGravity = kCAGravityCenter
+        aView.layer.contentsGravity = kCAGravityResizeAspect
         aView.layer.contentsScale = image?.scale ?? 0
-        aView.layer.masksToBounds = true
         return aView
         }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         addDismissButton()
+        
+        let transform = CGAffineTransform(scaleX: 0.5, y: 0.5).rotated(by: CGFloat(Double.pi/180.0*30.0)).translatedBy(x: 200, y: 0)
+        simpleView.layer.setAffineTransform(transform)
         view.addSubview(simpleView)
     }
-    
 }

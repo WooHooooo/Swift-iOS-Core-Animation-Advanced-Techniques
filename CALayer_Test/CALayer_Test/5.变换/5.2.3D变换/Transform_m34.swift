@@ -1,14 +1,15 @@
 //
-//  ContentsProperties.swift
+//  3DTransform_m34.swift
 //  CALayer_Test
 //
-//  Created by 吴昊 on 2017/12/19.
+//  Created by 吴昊 on 2017/12/21.
 //  Copyright © 2017年 吴昊. All rights reserved.
 //
 
 import Foundation
 import UIKit
-class ContentsProperties1: UIViewController {
+
+class Transform_m34: UIViewController {
     
     lazy var simpleView:UIView = {
         [weak self] in
@@ -16,16 +17,20 @@ class ContentsProperties1: UIViewController {
         aView.backgroundColor = UIColor.white
         let image = UIImage(named: "Snowman.png")
         aView.layer.contents = image?.cgImage
-        aView.layer.contentsGravity = kCAGravityCenter
+        aView.layer.contentsGravity = kCAGravityResizeAspect
         aView.layer.contentsScale = image?.scale ?? 0
-        aView.layer.masksToBounds = true
         return aView
         }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         addDismissButton()
+        
+        var transform = CATransform3DIdentity
+        transform.m34 = -1.0/500.0
+        transform = CATransform3DRotate(transform, CGFloat(Double.pi/4), 0, 1, 0)
+        simpleView.layer.transform = transform
         view.addSubview(simpleView)
     }
-    
 }
