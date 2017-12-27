@@ -18,8 +18,6 @@
 		6826BE7B1FED00810021ADED /* Special_CAGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6826BE7A1FED00810021ADED /* Special_CAGradientLayer.swift */; };
 		6826BE7E1FED44860021ADED /* Special_CAReplicatorLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6826BE7D1FED44860021ADED /* Special_CAReplicatorLayer.swift */; };
 		6826BE801FED45180021ADED /* Special_CAReplicatorLayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6826BE7F1FED45180021ADED /* Special_CAReplicatorLayer.xib */; };
-		6826BE881FED5D400021ADED /* ReflectionView_test.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6826BE861FED5D400021ADED /* ReflectionView_test.xib */; };
-		6826BE891FED5D400021ADED /* ReflectionView_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6826BE871FED5D400021ADED /* ReflectionView_test.swift */; };
 		6826BE8C1FED63200021ADED /* LayerLabel_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6826BE8A1FED63200021ADED /* LayerLabel_test.swift */; };
 		6826BE8F1FED6AFB0021ADED /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6826BE8E1FED6AFB0021ADED /* ScrollView.swift */; };
 		6826BE9A1FEE198A0021ADED /* Special_CAEmitterLayeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6826BE981FEE198A0021ADED /* Special_CAEmitterLayeer.swift */; };
@@ -34,20 +32,55 @@
 		68369BD71FE8A0E300FA8096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68369BD51FE8A0E300FA8096 /* LaunchScreen.storyboard */; };
 		68369BE21FE8A0E400FA8096 /* CALayer_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68369BE11FE8A0E400FA8096 /* CALayer_TestTests.swift */; };
 		68369C081FE8B93200FA8096 /* UseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68369C071FE8B93200FA8096 /* UseLayer.swift */; };
+		68373D181FF0898C00A368F3 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68373D161FF0898C00A368F3 /* Transition.swift */; };
+		68373D191FF0898C00A368F3 /* Transition.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68373D171FF0898C00A368F3 /* Transition.xib */; };
+		68373D1B1FF0928D00A368F3 /* Transition_Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68373D1A1FF0928D00A368F3 /* Transition_Tabbar.swift */; };
+		68373D201FF09B7C00A368F3 /* CustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68373D1E1FF09B7C00A368F3 /* CustomAnimation.swift */; };
+		68373D211FF09B7C00A368F3 /* CustomAnimation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68373D1F1FF09B7C00A368F3 /* CustomAnimation.xib */; };
+		68373D251FF0A0A800A368F3 /* CancelAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68373D231FF0A0A800A368F3 /* CancelAnimation.swift */; };
+		68373D261FF0A0A800A368F3 /* CancelAnimation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68373D241FF0A0A800A368F3 /* CancelAnimation.xib */; };
+		68373D2A1FF0A46C00A368F3 /* Duration_RepeatCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68373D281FF0A46C00A368F3 /* Duration_RepeatCount.swift */; };
+		68373D2B1FF0A46C00A368F3 /* Duration_RepeatCount.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68373D291FF0A46C00A368F3 /* Duration_RepeatCount.xib */; };
+		68373D2E1FF0AA3300A368F3 /* RepeatDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68373D2C1FF0AA3300A368F3 /* RepeatDuration.swift */; };
+		68373D2F1FF0AA3300A368F3 /* RepeatDuration.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68373D2D1FF0AA3300A368F3 /* RepeatDuration.xib */; };
+		68373D321FF0AD1900A368F3 /* RelativelyTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68373D301FF0AD1900A368F3 /* RelativelyTime.swift */; };
+		68373D331FF0AD1900A368F3 /* RelativelyTime.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68373D311FF0AD1900A368F3 /* RelativelyTime.xib */; };
+		68373D381FF0D12500A368F3 /* ManuallyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68373D361FF0D12500A368F3 /* ManuallyAnimation.swift */; };
+		68373D391FF0D12500A368F3 /* ManuallyAnimation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68373D371FF0D12500A368F3 /* ManuallyAnimation.xib */; };
+		68373D431FF0E01B00A368F3 /* UIViewCAMediaTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68373D411FF0E01B00A368F3 /* UIViewCAMediaTimingFunction.swift */; };
+		68373D4C1FF0F61700A368F3 /* TriBezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68373D4A1FF0F61700A368F3 /* TriBezier.swift */; };
+		68373D4D1FF0F61700A368F3 /* TriBezier.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68373D4B1FF0F61700A368F3 /* TriBezier.xib */; };
+		68373D501FF1034000A368F3 /* ReboundBall_KeyTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68373D4E1FF1034000A368F3 /* ReboundBall_KeyTimes.swift */; };
+		68373D511FF1034000A368F3 /* ReboundBall_KeyTimes.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68373D4F1FF1034000A368F3 /* ReboundBall_KeyTimes.xib */; };
+		68373D541FF109BA00A368F3 /* ReboundBall_Auto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68373D521FF109BA00A368F3 /* ReboundBall_Auto.swift */; };
+		68373D551FF109BA00A368F3 /* ReboundBall_Auto.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68373D531FF109BA00A368F3 /* ReboundBall_Auto.xib */; };
+		68373D5F1FF21B8900A368F3 /* ReboundBall_NSTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68373D5D1FF21B8900A368F3 /* ReboundBall_NSTimer.swift */; };
+		68373D601FF21B8900A368F3 /* ReboundBall_NSTimer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68373D5E1FF21B8900A368F3 /* ReboundBall_NSTimer.xib */; };
+		68373D631FF2225800A368F3 /* ReboundBall_CADisplayLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68373D611FF2225800A368F3 /* ReboundBall_CADisplayLink.swift */; };
+		68373D641FF2225800A368F3 /* ReboundBall_CADisplayLink.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68373D621FF2225800A368F3 /* ReboundBall_CADisplayLink.xib */; };
 		683CCFCB1FEBBD8000ADBF1F /* AffineTransformConcat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683CCFCA1FEBBD8000ADBF1F /* AffineTransformConcat.swift */; };
 		683DBED71FEF7E3B00F1BA84 /* AdvancingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683DBED51FEF7E3B00F1BA84 /* AdvancingTransition.swift */; };
 		683DBED81FEF7E3B00F1BA84 /* AdvancingTransition.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683DBED61FEF7E3B00F1BA84 /* AdvancingTransition.xib */; };
 		683DBEDC1FEF864F00F1BA84 /* PresentationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683DBEDA1FEF864F00F1BA84 /* PresentationLayer.swift */; };
+		683DBEE31FEF8CFC00F1BA84 /* PropertyAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683DBEE11FEF8CFC00F1BA84 /* PropertyAnimations.swift */; };
+		683DBEE41FEF8CFC00F1BA84 /* PropertyAnimations.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683DBEE21FEF8CFC00F1BA84 /* PropertyAnimations.xib */; };
+		683DBEE71FEF936B00F1BA84 /* PropertyAnimations_KVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683DBEE51FEF936B00F1BA84 /* PropertyAnimations_KVC.swift */; };
+		683DBEE81FEF936B00F1BA84 /* PropertyAnimations_KVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683DBEE61FEF936B00F1BA84 /* PropertyAnimations_KVC.xib */; };
+		683DBEED1FEFA23800F1BA84 /* PropertyAnimations_KeyFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683DBEEB1FEFA23800F1BA84 /* PropertyAnimations_KeyFrames.swift */; };
+		683DBEEE1FEFA23800F1BA84 /* PropertyAnimations_KeyFrames.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683DBEEC1FEFA23800F1BA84 /* PropertyAnimations_KeyFrames.xib */; };
+		683DBEF11FEFB2E400F1BA84 /* PropertyAnimations_CGPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683DBEEF1FEFB2E400F1BA84 /* PropertyAnimations_CGPath.swift */; };
 		683FE04F1FEECADF00B0799D /* Ship.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 683FE04E1FEECADE00B0799D /* Ship.mp4 */; };
 		683FE0511FEECCA400B0799D /* Special_AVPlayerLayer_MIX.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683FE0501FEECC6800B0799D /* Special_AVPlayerLayer_MIX.xib */; };
 		683FE0541FEF5CB900B0799D /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683FE0521FEF5CB900B0799D /* Transactions.swift */; };
 		683FE0551FEF5CB900B0799D /* Transactions.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683FE0531FEF5CB900B0799D /* Transactions.xib */; };
 		683FE0571FEF6FDC00B0799D /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683FE0561FEF6FDC00B0799D /* CALayer+Extension.swift */; };
-		683FE05A1FEF730700B0799D /* CALayer+CALayer_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 683FE0591FEF730700B0799D /* CALayer+CALayer_Category.m */; };
 		683FE05E1FEF75E100B0799D /* Completion_Blocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683FE05C1FEF75E100B0799D /* Completion_Blocks.swift */; };
 		683FE05F1FEF75E100B0799D /* Completion_Blocks.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683FE05D1FEF75E100B0799D /* Completion_Blocks.xib */; };
 		683FE0631FEF78E500B0799D /* LayerActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683FE0611FEF78E500B0799D /* LayerActions.swift */; };
 		683FE0641FEF78E500B0799D /* LayerActions.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683FE0621FEF78E500B0799D /* LayerActions.xib */; };
+		6890A8341FF00C0E00C624F3 /* PropertyAnimations_CGPath.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6890A8321FF00C0E00C624F3 /* PropertyAnimations_CGPath.xib */; };
+		6890A8371FF0143100C624F3 /* AnimationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6890A8351FF0143000C624F3 /* AnimationGroup.swift */; };
+		6890A8381FF0143100C624F3 /* AnimationGroup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6890A8361FF0143000C624F3 /* AnimationGroup.xib */; };
 		689C25EE1FE8E13A005A3311 /* ContentsProperties1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C25ED1FE8E13A005A3311 /* ContentsProperties1.swift */; };
 		689C25F41FE966B4005A3311 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C25F31FE966B4005A3311 /* UIViewController+Extension.swift */; };
 		689C25F71FE96FF8005A3311 /* CustomDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C25F61FE96FF8005A3311 /* CustomDrawing.swift */; };
@@ -106,8 +139,6 @@
 		6826BE7A1FED00810021ADED /* Special_CAGradientLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Special_CAGradientLayer.swift; sourceTree = "<group>"; };
 		6826BE7D1FED44860021ADED /* Special_CAReplicatorLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Special_CAReplicatorLayer.swift; sourceTree = "<group>"; };
 		6826BE7F1FED45180021ADED /* Special_CAReplicatorLayer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Special_CAReplicatorLayer.xib; sourceTree = "<group>"; };
-		6826BE861FED5D400021ADED /* ReflectionView_test.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ReflectionView_test.xib; path = ../../../../../../../../Desktop/ReflectionView_test.xib; sourceTree = "<group>"; };
-		6826BE871FED5D400021ADED /* ReflectionView_test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReflectionView_test.swift; path = ../../../../../../../../Desktop/ReflectionView_test.swift; sourceTree = "<group>"; };
 		6826BE8A1FED63200021ADED /* LayerLabel_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerLabel_test.swift; sourceTree = "<group>"; };
 		6826BE8E1FED6AFB0021ADED /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
 		6826BE981FEE198A0021ADED /* Special_CAEmitterLayeer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Special_CAEmitterLayeer.swift; sourceTree = "<group>"; };
@@ -128,21 +159,55 @@
 		68369BE11FE8A0E400FA8096 /* CALayer_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer_TestTests.swift; sourceTree = "<group>"; };
 		68369BE31FE8A0E400FA8096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68369C071FE8B93200FA8096 /* UseLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseLayer.swift; sourceTree = "<group>"; };
+		68373D161FF0898C00A368F3 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		68373D171FF0898C00A368F3 /* Transition.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Transition.xib; sourceTree = "<group>"; };
+		68373D1A1FF0928D00A368F3 /* Transition_Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition_Tabbar.swift; sourceTree = "<group>"; };
+		68373D1E1FF09B7C00A368F3 /* CustomAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimation.swift; sourceTree = "<group>"; };
+		68373D1F1FF09B7C00A368F3 /* CustomAnimation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAnimation.xib; sourceTree = "<group>"; };
+		68373D231FF0A0A800A368F3 /* CancelAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelAnimation.swift; sourceTree = "<group>"; };
+		68373D241FF0A0A800A368F3 /* CancelAnimation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CancelAnimation.xib; sourceTree = "<group>"; };
+		68373D281FF0A46C00A368F3 /* Duration_RepeatCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duration_RepeatCount.swift; sourceTree = "<group>"; };
+		68373D291FF0A46C00A368F3 /* Duration_RepeatCount.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Duration_RepeatCount.xib; sourceTree = "<group>"; };
+		68373D2C1FF0AA3300A368F3 /* RepeatDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatDuration.swift; sourceTree = "<group>"; };
+		68373D2D1FF0AA3300A368F3 /* RepeatDuration.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepeatDuration.xib; sourceTree = "<group>"; };
+		68373D301FF0AD1900A368F3 /* RelativelyTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativelyTime.swift; sourceTree = "<group>"; };
+		68373D311FF0AD1900A368F3 /* RelativelyTime.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RelativelyTime.xib; sourceTree = "<group>"; };
+		68373D361FF0D12500A368F3 /* ManuallyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManuallyAnimation.swift; sourceTree = "<group>"; };
+		68373D371FF0D12500A368F3 /* ManuallyAnimation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManuallyAnimation.xib; sourceTree = "<group>"; };
+		68373D411FF0E01B00A368F3 /* UIViewCAMediaTimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewCAMediaTimingFunction.swift; sourceTree = "<group>"; };
+		68373D4A1FF0F61700A368F3 /* TriBezier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriBezier.swift; sourceTree = "<group>"; };
+		68373D4B1FF0F61700A368F3 /* TriBezier.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TriBezier.xib; sourceTree = "<group>"; };
+		68373D4E1FF1034000A368F3 /* ReboundBall_KeyTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReboundBall_KeyTimes.swift; sourceTree = "<group>"; };
+		68373D4F1FF1034000A368F3 /* ReboundBall_KeyTimes.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReboundBall_KeyTimes.xib; sourceTree = "<group>"; };
+		68373D521FF109BA00A368F3 /* ReboundBall_Auto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReboundBall_Auto.swift; sourceTree = "<group>"; };
+		68373D531FF109BA00A368F3 /* ReboundBall_Auto.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReboundBall_Auto.xib; sourceTree = "<group>"; };
+		68373D5D1FF21B8900A368F3 /* ReboundBall_NSTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReboundBall_NSTimer.swift; sourceTree = "<group>"; };
+		68373D5E1FF21B8900A368F3 /* ReboundBall_NSTimer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReboundBall_NSTimer.xib; sourceTree = "<group>"; };
+		68373D611FF2225800A368F3 /* ReboundBall_CADisplayLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReboundBall_CADisplayLink.swift; sourceTree = "<group>"; };
+		68373D621FF2225800A368F3 /* ReboundBall_CADisplayLink.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReboundBall_CADisplayLink.xib; sourceTree = "<group>"; };
 		683CCFCA1FEBBD8000ADBF1F /* AffineTransformConcat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffineTransformConcat.swift; sourceTree = "<group>"; };
 		683DBED51FEF7E3B00F1BA84 /* AdvancingTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancingTransition.swift; sourceTree = "<group>"; };
 		683DBED61FEF7E3B00F1BA84 /* AdvancingTransition.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvancingTransition.xib; sourceTree = "<group>"; };
 		683DBEDA1FEF864F00F1BA84 /* PresentationLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationLayer.swift; sourceTree = "<group>"; };
+		683DBEE11FEF8CFC00F1BA84 /* PropertyAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyAnimations.swift; sourceTree = "<group>"; };
+		683DBEE21FEF8CFC00F1BA84 /* PropertyAnimations.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropertyAnimations.xib; sourceTree = "<group>"; };
+		683DBEE51FEF936B00F1BA84 /* PropertyAnimations_KVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyAnimations_KVC.swift; sourceTree = "<group>"; };
+		683DBEE61FEF936B00F1BA84 /* PropertyAnimations_KVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropertyAnimations_KVC.xib; sourceTree = "<group>"; };
+		683DBEEB1FEFA23800F1BA84 /* PropertyAnimations_KeyFrames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyAnimations_KeyFrames.swift; sourceTree = "<group>"; };
+		683DBEEC1FEFA23800F1BA84 /* PropertyAnimations_KeyFrames.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropertyAnimations_KeyFrames.xib; sourceTree = "<group>"; };
+		683DBEEF1FEFB2E400F1BA84 /* PropertyAnimations_CGPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyAnimations_CGPath.swift; sourceTree = "<group>"; };
 		683FE04E1FEECADE00B0799D /* Ship.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ship.mp4; path = CALayer_Test/Ship.mp4; sourceTree = "<group>"; };
 		683FE0501FEECC6800B0799D /* Special_AVPlayerLayer_MIX.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Special_AVPlayerLayer_MIX.xib; sourceTree = "<group>"; };
 		683FE0521FEF5CB900B0799D /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
 		683FE0531FEF5CB900B0799D /* Transactions.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Transactions.xib; sourceTree = "<group>"; };
 		683FE0561FEF6FDC00B0799D /* CALayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
-		683FE0581FEF730700B0799D /* CALayer+CALayer_Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+CALayer_Category.h"; sourceTree = "<group>"; };
-		683FE0591FEF730700B0799D /* CALayer+CALayer_Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+CALayer_Category.m"; sourceTree = "<group>"; };
 		683FE05C1FEF75E100B0799D /* Completion_Blocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Completion_Blocks.swift; sourceTree = "<group>"; };
 		683FE05D1FEF75E100B0799D /* Completion_Blocks.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Completion_Blocks.xib; sourceTree = "<group>"; };
 		683FE0611FEF78E500B0799D /* LayerActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerActions.swift; sourceTree = "<group>"; };
 		683FE0621FEF78E500B0799D /* LayerActions.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LayerActions.xib; sourceTree = "<group>"; };
+		6890A8331FF00C0E00C624F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PropertyAnimations_CGPath.xib; sourceTree = "<group>"; };
+		6890A8351FF0143000C624F3 /* AnimationGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationGroup.swift; sourceTree = "<group>"; };
+		6890A8361FF0143000C624F3 /* AnimationGroup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimationGroup.xib; sourceTree = "<group>"; };
 		689C25ED1FE8E13A005A3311 /* ContentsProperties1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsProperties1.swift; sourceTree = "<group>"; };
 		689C25F31FE966B4005A3311 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		689C25F61FE96FF8005A3311 /* CustomDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDrawing.swift; sourceTree = "<group>"; };
@@ -234,8 +299,6 @@
 		6826BE7C1FED44720021ADED /* 6.5.CAReplicatorLayer */ = {
 			isa = PBXGroup;
 			children = (
-				6826BE871FED5D400021ADED /* ReflectionView_test.swift */,
-				6826BE861FED5D400021ADED /* ReflectionView_test.xib */,
 				6826BE7D1FED44860021ADED /* Special_CAReplicatorLayer.swift */,
 				6826BE7F1FED45180021ADED /* Special_CAReplicatorLayer.xib */,
 			);
@@ -427,6 +490,10 @@
 		68369BFE1FE8B85D00FA8096 /* 8.显式动画 */ = {
 			isa = PBXGroup;
 			children = (
+				68373D221FF09F6300A368F3 /* 8.4. 在动画过程中取消动画 */,
+				68373D151FF0895C00A368F3 /* 8.3.过渡 */,
+				68373D141FF0894E00A368F3 /* 8.2.动画组 */,
+				683DBEDE1FEF8B2300F1BA84 /* 8.1.属性动画 */,
 			);
 			path = "8.显式动画";
 			sourceTree = "<group>";
@@ -434,6 +501,9 @@
 		68369BFF1FE8B86D00FA8096 /* 9.图层时间 */ = {
 			isa = PBXGroup;
 			children = (
+				68373D351FF0D10C00A368F3 /* 9.3. 手动动画 */,
+				68373D341FF0CF1E00A368F3 /* 9.2. 层级关系时间 */,
+				68373D271FF0A43600A368F3 /* 9.1.CAMediaTiming协议 */,
 			);
 			path = "9.图层时间";
 			sourceTree = "<group>";
@@ -441,6 +511,8 @@
 		68369C001FE8B87700FA8096 /* 10.缓冲 */ = {
 			isa = PBXGroup;
 			children = (
+				68373D451FF0E31100A368F3 /* 10.2. 自定义缓冲函数 */,
+				68373D3A1FF0DC6800A368F3 /* 10.1. 动画速度 */,
 			);
 			path = "10.缓冲";
 			sourceTree = "<group>";
@@ -448,6 +520,7 @@
 		68369C011FE8B88000FA8096 /* 11.基于定时器的动画 */ = {
 			isa = PBXGroup;
 			children = (
+				68373D5B1FF21B4700A368F3 /* 11.1. 定时帧 */,
 			);
 			path = "11.基于定时器的动画";
 			sourceTree = "<group>";
@@ -488,12 +561,118 @@
 			path = "1.3.使用图层";
 			sourceTree = "<group>";
 		};
+		68373D141FF0894E00A368F3 /* 8.2.动画组 */ = {
+			isa = PBXGroup;
+			children = (
+				6890A8351FF0143000C624F3 /* AnimationGroup.swift */,
+				6890A8361FF0143000C624F3 /* AnimationGroup.xib */,
+			);
+			path = "8.2.动画组";
+			sourceTree = "<group>";
+		};
+		68373D151FF0895C00A368F3 /* 8.3.过渡 */ = {
+			isa = PBXGroup;
+			children = (
+				68373D161FF0898C00A368F3 /* Transition.swift */,
+				68373D171FF0898C00A368F3 /* Transition.xib */,
+				68373D1A1FF0928D00A368F3 /* Transition_Tabbar.swift */,
+				68373D1E1FF09B7C00A368F3 /* CustomAnimation.swift */,
+				68373D1F1FF09B7C00A368F3 /* CustomAnimation.xib */,
+			);
+			path = "8.3.过渡";
+			sourceTree = "<group>";
+		};
+		68373D221FF09F6300A368F3 /* 8.4. 在动画过程中取消动画 */ = {
+			isa = PBXGroup;
+			children = (
+				68373D231FF0A0A800A368F3 /* CancelAnimation.swift */,
+				68373D241FF0A0A800A368F3 /* CancelAnimation.xib */,
+			);
+			path = "8.4. 在动画过程中取消动画";
+			sourceTree = "<group>";
+		};
+		68373D271FF0A43600A368F3 /* 9.1.CAMediaTiming协议 */ = {
+			isa = PBXGroup;
+			children = (
+				68373D281FF0A46C00A368F3 /* Duration_RepeatCount.swift */,
+				68373D291FF0A46C00A368F3 /* Duration_RepeatCount.xib */,
+				68373D2C1FF0AA3300A368F3 /* RepeatDuration.swift */,
+				68373D2D1FF0AA3300A368F3 /* RepeatDuration.xib */,
+				68373D301FF0AD1900A368F3 /* RelativelyTime.swift */,
+				68373D311FF0AD1900A368F3 /* RelativelyTime.xib */,
+			);
+			path = "9.1.CAMediaTiming协议";
+			sourceTree = "<group>";
+		};
+		68373D341FF0CF1E00A368F3 /* 9.2. 层级关系时间 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "9.2. 层级关系时间";
+			sourceTree = "<group>";
+		};
+		68373D351FF0D10C00A368F3 /* 9.3. 手动动画 */ = {
+			isa = PBXGroup;
+			children = (
+				68373D361FF0D12500A368F3 /* ManuallyAnimation.swift */,
+				68373D371FF0D12500A368F3 /* ManuallyAnimation.xib */,
+			);
+			path = "9.3. 手动动画";
+			sourceTree = "<group>";
+		};
+		68373D3A1FF0DC6800A368F3 /* 10.1. 动画速度 */ = {
+			isa = PBXGroup;
+			children = (
+				68373D411FF0E01B00A368F3 /* UIViewCAMediaTimingFunction.swift */,
+			);
+			path = "10.1. 动画速度";
+			sourceTree = "<group>";
+		};
+		68373D451FF0E31100A368F3 /* 10.2. 自定义缓冲函数 */ = {
+			isa = PBXGroup;
+			children = (
+				68373D4A1FF0F61700A368F3 /* TriBezier.swift */,
+				68373D4B1FF0F61700A368F3 /* TriBezier.xib */,
+				68373D4E1FF1034000A368F3 /* ReboundBall_KeyTimes.swift */,
+				68373D4F1FF1034000A368F3 /* ReboundBall_KeyTimes.xib */,
+				68373D521FF109BA00A368F3 /* ReboundBall_Auto.swift */,
+				68373D531FF109BA00A368F3 /* ReboundBall_Auto.xib */,
+			);
+			path = "10.2. 自定义缓冲函数";
+			sourceTree = "<group>";
+		};
+		68373D5B1FF21B4700A368F3 /* 11.1. 定时帧 */ = {
+			isa = PBXGroup;
+			children = (
+				68373D5D1FF21B8900A368F3 /* ReboundBall_NSTimer.swift */,
+				68373D5E1FF21B8900A368F3 /* ReboundBall_NSTimer.xib */,
+				68373D611FF2225800A368F3 /* ReboundBall_CADisplayLink.swift */,
+				68373D621FF2225800A368F3 /* ReboundBall_CADisplayLink.xib */,
+			);
+			path = "11.1. 定时帧";
+			sourceTree = "<group>";
+		};
 		683DBED91FEF862900F1BA84 /* 7.4. 呈现与模型 */ = {
 			isa = PBXGroup;
 			children = (
 				683DBEDA1FEF864F00F1BA84 /* PresentationLayer.swift */,
 			);
 			path = "7.4. 呈现与模型";
+			sourceTree = "<group>";
+		};
+		683DBEDE1FEF8B2300F1BA84 /* 8.1.属性动画 */ = {
+			isa = PBXGroup;
+			children = (
+				683DBEE11FEF8CFC00F1BA84 /* PropertyAnimations.swift */,
+				683DBEE21FEF8CFC00F1BA84 /* PropertyAnimations.xib */,
+				683DBEE51FEF936B00F1BA84 /* PropertyAnimations_KVC.swift */,
+				683DBEE61FEF936B00F1BA84 /* PropertyAnimations_KVC.xib */,
+				683DBEEB1FEFA23800F1BA84 /* PropertyAnimations_KeyFrames.swift */,
+				683DBEEC1FEFA23800F1BA84 /* PropertyAnimations_KeyFrames.xib */,
+				683DBEEF1FEFB2E400F1BA84 /* PropertyAnimations_CGPath.swift */,
+				6890A8321FF00C0E00C624F3 /* PropertyAnimations_CGPath.xib */,
+			);
+			path = "8.1.属性动画";
 			sourceTree = "<group>";
 		};
 		683FE05B1FEF755000B0799D /* 7.2.完成块 */ = {
@@ -521,8 +700,6 @@
 			children = (
 				683FE0521FEF5CB900B0799D /* Transactions.swift */,
 				683FE0531FEF5CB900B0799D /* Transactions.xib */,
-				683FE0581FEF730700B0799D /* CALayer+CALayer_Category.h */,
-				683FE0591FEF730700B0799D /* CALayer+CALayer_Category.m */,
 			);
 			path = "7.1.事务";
 			sourceTree = "<group>";
@@ -745,28 +922,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68373D641FF2225800A368F3 /* ReboundBall_CADisplayLink.xib in Resources */,
 				683FE0511FEECCA400B0799D /* Special_AVPlayerLayer_MIX.xib in Resources */,
 				683FE04F1FEECADF00B0799D /* Ship.mp4 in Resources */,
+				683DBEEE1FEFA23800F1BA84 /* PropertyAnimations_KeyFrames.xib in Resources */,
+				68373D331FF0AD1900A368F3 /* RelativelyTime.xib in Resources */,
 				689C26171FEB4591005A3311 /* LayerBorder.xib in Resources */,
+				68373D2F1FF0AA3300A368F3 /* RepeatDuration.xib in Resources */,
 				68E368751FEBF84800438D58 /* Transform_Rotation1.xib in Resources */,
 				680F331E1FEBECBE0091E9F8 /* Transform_sublayer.xib in Resources */,
+				6890A8381FF0143100C624F3 /* AnimationGroup.xib in Resources */,
 				689C26221FEB50B3005A3311 /* Shadow.xib in Resources */,
 				682513C21FEB542E00FE41CE /* ShadowPath.xib in Resources */,
 				683FE05F1FEF75E100B0799D /* Completion_Blocks.xib in Resources */,
+				68373D261FF0A0A800A368F3 /* CancelAnimation.xib in Resources */,
 				689C26191FEB497E005A3311 /* ConrnerRadius.xib in Resources */,
 				683FE0551FEF5CB900B0799D /* Transactions.xib in Resources */,
+				68373D551FF109BA00A368F3 /* ReboundBall_Auto.xib in Resources */,
+				68373D211FF09B7C00A368F3 /* CustomAnimation.xib in Resources */,
 				689C261B1FEB4A4D005A3311 /* CoordinateSystem.xib in Resources */,
-				6826BE881FED5D400021ADED /* ReflectionView_test.xib in Resources */,
 				68E368791FEBF86100438D58 /* Transform_Rotation2.xib in Resources */,
 				68E3687E1FEBFEDA00438D58 /* SolidObject.xib in Resources */,
 				68B2592D1FEB911600C476B1 /* Stretch_Filte.xib in Resources */,
 				68369BD71FE8A0E300FA8096 /* LaunchScreen.storyboard in Resources */,
+				68373D511FF1034000A368F3 /* ReboundBall_KeyTimes.xib in Resources */,
+				68373D391FF0D12500A368F3 /* ManuallyAnimation.xib in Resources */,
+				683DBEE81FEF936B00F1BA84 /* PropertyAnimations_KVC.xib in Resources */,
 				689C25FD1FEA371A005A3311 /* Assets.xcassets in Resources */,
 				683DBED81FEF7E3B00F1BA84 /* AdvancingTransition.xib in Resources */,
+				68373D601FF21B8900A368F3 /* ReboundBall_NSTimer.xib in Resources */,
 				689C261D1FEB4ABE005A3311 /* AnchorPoint.xib in Resources */,
+				683DBEE41FEF8CFC00F1BA84 /* PropertyAnimations.xib in Resources */,
+				68373D4D1FF0F61700A368F3 /* TriBezier.xib in Resources */,
 				68369BD21FE8A0E300FA8096 /* Main.storyboard in Resources */,
 				68E368821FECA19800438D58 /* SolidObject_Shadow.xib in Resources */,
+				6890A8341FF00C0E00C624F3 /* PropertyAnimations_CGPath.xib in Resources */,
 				68B259221FEB5FCF00C476B1 /* LayerMask.xib in Resources */,
+				68373D2B1FF0A46C00A368F3 /* Duration_RepeatCount.xib in Resources */,
+				68373D191FF0898C00A368F3 /* Transition.xib in Resources */,
 				6826BEAA1FEE87C90021ADED /* Special_CAEAGLLayer_OC.xib in Resources */,
 				6826BE801FED45180021ADED /* Special_CAReplicatorLayer.xib in Resources */,
 				683FE0641FEF78E500B0799D /* LayerActions.xib in Resources */,
@@ -787,33 +980,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68373D181FF0898C00A368F3 /* Transition.swift in Sources */,
 				68E368741FEBF84800438D58 /* Transform_Rotation1.swift in Sources */,
 				6826BE7E1FED44860021ADED /* Special_CAReplicatorLayer.swift in Sources */,
 				683FE0631FEF78E500B0799D /* LayerActions.swift in Sources */,
+				68373D1B1FF0928D00A368F3 /* Transition_Tabbar.swift in Sources */,
 				680F331D1FEBECBE0091E9F8 /* Transform_sublayer.swift in Sources */,
 				68E368781FEBF86100438D58 /* Transform_Rotation2.swift in Sources */,
 				68369BCF1FE8A0E300FA8096 /* ViewController.swift in Sources */,
 				689C26001FEA3C6B005A3311 /* AnchorPoint.swift in Sources */,
+				68373D501FF1034000A368F3 /* ReboundBall_KeyTimes.swift in Sources */,
 				683DBEDC1FEF864F00F1BA84 /* PresentationLayer.swift in Sources */,
 				6826BE6F1FECD6F80021ADED /* Special_CATextLayer.swift in Sources */,
-				683FE05A1FEF730700B0799D /* CALayer+CALayer_Category.m in Sources */,
+				683DBEE31FEF8CFC00F1BA84 /* PropertyAnimations.swift in Sources */,
 				689C26101FEA71ED005A3311 /* ConrnerRadius.swift in Sources */,
 				683DBED71FEF7E3B00F1BA84 /* AdvancingTransition.swift in Sources */,
 				6826BE7B1FED00810021ADED /* Special_CAGradientLayer.swift in Sources */,
-				6826BE891FED5D400021ADED /* ReflectionView_test.swift in Sources */,
 				689C26061FEA5F40005A3311 /* CoordinateSystem.swift in Sources */,
 				6826BE6D1FECB1E80021ADED /* Special_CAShapeLayer.swift in Sources */,
 				689C25F71FE96FF8005A3311 /* CustomDrawing.swift in Sources */,
+				68373D2E1FF0AA3300A368F3 /* RepeatDuration.swift in Sources */,
+				68373D201FF09B7C00A368F3 /* CustomAnimation.swift in Sources */,
+				68373D431FF0E01B00A368F3 /* UIViewCAMediaTimingFunction.swift in Sources */,
+				6890A8371FF0143100C624F3 /* AnimationGroup.swift in Sources */,
+				68373D381FF0D12500A368F3 /* ManuallyAnimation.swift in Sources */,
+				683DBEF11FEFB2E400F1BA84 /* PropertyAnimations_CGPath.swift in Sources */,
+				68373D2A1FF0A46C00A368F3 /* Duration_RepeatCount.swift in Sources */,
 				689C25FB1FEA02EE005A3311 /* ContentsProperties3.swift in Sources */,
 				68369BCD1FE8A0E300FA8096 /* AppDelegate.swift in Sources */,
 				6826BEA11FEE87090021ADED /* MyGlView.swift in Sources */,
 				68E3687D1FEBFEDA00438D58 /* SolidObject.swift in Sources */,
 				689C25F91FE9F7A0005A3311 /* ContentsProperties2.swift in Sources */,
+				68373D631FF2225800A368F3 /* ReboundBall_CADisplayLink.swift in Sources */,
 				6826BE8F1FED6AFB0021ADED /* ScrollView.swift in Sources */,
 				689C260B1FEA6474005A3311 /* HitTesting-containsPoint.swift in Sources */,
 				683FE05E1FEF75E100B0799D /* Completion_Blocks.swift in Sources */,
 				6826BE731FECE31B0021ADED /* Special_CATextLayer_RichText.swift in Sources */,
+				683DBEE71FEF936B00F1BA84 /* PropertyAnimations_KVC.swift in Sources */,
 				689C260D1FEA649E005A3311 /* HitTesting-hitTest.swift in Sources */,
+				68373D321FF0AD1900A368F3 /* RelativelyTime.swift in Sources */,
 				6826BEA91FEE87C90021ADED /* Special_CAEAGLLayer_OC.m in Sources */,
 				68E368811FECA19800438D58 /* SolidObject_Shadow.swift in Sources */,
 				689C25EE1FE8E13A005A3311 /* ContentsProperties1.swift in Sources */,
@@ -828,9 +1033,14 @@
 				682513C11FEB542E00FE41CE /* ShadowPath.swift in Sources */,
 				683CCFCB1FEBBD8000ADBF1F /* AffineTransformConcat.swift in Sources */,
 				68B259311FEB949800C476B1 /* Rasterize.swift in Sources */,
+				683DBEED1FEFA23800F1BA84 /* PropertyAnimations_KeyFrames.swift in Sources */,
 				6826BE9E1FEE39720021ADED /* Special_CAEAGLLayer.swift in Sources */,
 				68369C081FE8B93200FA8096 /* UseLayer.swift in Sources */,
+				68373D251FF0A0A800A368F3 /* CancelAnimation.swift in Sources */,
+				68373D5F1FF21B8900A368F3 /* ReboundBall_NSTimer.swift in Sources */,
 				68EBC7861FEEC42E00455F9A /* Special_AVPlayerLayer_MIX.swift in Sources */,
+				68373D541FF109BA00A368F3 /* ReboundBall_Auto.swift in Sources */,
+				68373D4C1FF0F61700A368F3 /* TriBezier.swift in Sources */,
 				68B2EA471FEBC63F003F8FAA /* Transform_m34.swift in Sources */,
 				6826BE711FECE2F90021ADED /* Special_CATransformLayer.swift in Sources */,
 				68B259251FEB64B800C476B1 /* Stretch_Filte.swift in Sources */,
@@ -872,6 +1082,14 @@
 				68369BD61FE8A0E300FA8096 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6890A8321FF00C0E00C624F3 /* PropertyAnimations_CGPath.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6890A8331FF00C0E00C624F3 /* Base */,
+			);
+			name = PropertyAnimations_CGPath.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

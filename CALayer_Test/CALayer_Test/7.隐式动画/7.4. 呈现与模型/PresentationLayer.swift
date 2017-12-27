@@ -33,6 +33,8 @@ class PresentationLayer: UIViewController {
         } else {
             CATransaction.begin()
             CATransaction.setAnimationDuration(1.0)
+            //10.1 动画速度-CAMediaTimingFunction(全速后减速)
+            CATransaction.setAnimationTimingFunction(CAMediaTimingFunction.init(name: kCAMediaTimingFunctionEaseOut))
             colorLayer.position = point
             CATransaction.commit()
         }
